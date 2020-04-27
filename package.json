@@ -1,0 +1,23 @@
+{
+  "name": "comp_sci_101",
+  "version": "1.0.0",
+  "description": "\"# comp_sci_101\"",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojosh64/comp_sci_101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojosh64/comp_sci_101/issues"
+  },
+  "homepage": "https://github.com/jojosh64/comp_sci_101#readme",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
