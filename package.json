@@ -4,7 +4,8 @@
   "description": "\"# comp_sci_101\"",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,17 @@
   },
   "homepage": "https://github.com/jojosh64/comp_sci_101#readme",
   "devDependencies": {
-    "jest": "^25.4.0"
-  }
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "jest": "^25.4.0",
+    "lint-staged": "^10.1.7",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {}
 }
