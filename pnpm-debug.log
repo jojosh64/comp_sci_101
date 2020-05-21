@@ -8,14 +8,14 @@
       "code": "ELIFECYCLE",
       "pkgid": "comp_sci_101@1.0.0",
       "stage": "test",
-      "script": "jest",
+      "script": "jest \"watch\"",
       "pkgname": "comp_sci_101"
     },
     "err": {
       "name": "Error",
-      "message": "comp_sci_101@1.0.0 test: `jest`\nExit status 1",
+      "message": "comp_sci_101@1.0.0 test: `jest \"watch\"`\nExit status 1",
       "code": "ELIFECYCLE",
-      "stack": "Error: comp_sci_101@1.0.0 test: `jest`\nExit status 1\n    at EventEmitter.<anonymous> (/home/joshbrummund/.nvm/versions/node/v14.2.0/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.2/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/index.js:302:16)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (/home/joshbrummund/.nvm/versions/node/v14.2.0/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.2/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/lib/spawn.js:55:14)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1051:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)"
+      "stack": "Error: comp_sci_101@1.0.0 test: `jest \"watch\"`\nExit status 1\n    at EventEmitter.<anonymous> (/home/joshbrummund/.nvm/versions/node/v14.2.0/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.2/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/index.js:302:16)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (/home/joshbrummund/.nvm/versions/node/v14.2.0/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.14.2/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/lib/spawn.js:55:14)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1051:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)"
     }
   }
 }
