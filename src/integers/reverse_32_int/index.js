@@ -18,4 +18,3 @@ while (num > 0) {
 }
 return reverseNum;
 }
-console.log(reverseInt(Math.pow(2, 31 - 1)));
