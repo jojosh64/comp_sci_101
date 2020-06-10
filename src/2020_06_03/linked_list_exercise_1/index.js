@@ -1,11 +1,11 @@
-class Node {
+ class Node {
     constructor(data, next = null) {
         this.data = data;
         this.next = next;
     }
 }
 
-class LinkedArray {
+ class LinkedArray {
     constructor() {
         this.head = null;
         this.size = 0;
@@ -28,9 +28,11 @@ itemAt(index) {
 }
 
 count() {
-    return this.size;
+return this.size;
 }
 }
+export default LinkedArray;
+
 
 
 
@@ -39,11 +41,15 @@ const ll = new LinkedArray();
 ll.add({name: 'JP', address: 'Blah'});
 ll.add(200);
 ll.add(300);
-ll.add(400);
 
-console.log(ll.itemAt(3));
 console.log(ll.count());
 
+
+/*
+console.log(ll);
+console.log(ll.itemAt(2));
+console.log(ll.count());
+*/
 
 
 
