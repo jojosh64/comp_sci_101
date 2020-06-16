@@ -42,7 +42,7 @@ ll.add({name: 'JP', address: 'Blah'});
 ll.add(200);
 ll.add(300);
 
-console.log(ll.count());
+
 
 
 /*
