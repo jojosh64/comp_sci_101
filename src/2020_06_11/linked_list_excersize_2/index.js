@@ -24,34 +24,31 @@ for (let i = 0; i < howMany; i++) {
 return head;
 }
 
-export const get_intersection_node = (headA, headB) => {
-    let countA = 0;
-    let countB = 0;
+const listCount = (head) => {
+    let count = 0;
+    while (head != null) {
+        head = head.next;
+        count++;
+    }
+    return count;
+}
 
-    for (let pointerA = headA; pointerA != null; pointerA = pointerA.next) {
-        countA++;
-    }
-    for (let pointerB = headB; pointerB != null; pointerB = pointerB.next) {
-        countB++
-    }
-    
+export const get_intersection_node = (headA, headB) => {
 
     let a = headA;
     let b = headB;
+    let aLength = listCount(a);
+    let bLength = listCount(b);
+    
+    if(aLength > bLength) {
+        a = skip(a, aLength - bLength);
+    } else {
+        b = skip(b, bLength - aLength);
+    }
+    console.log(a, b);
 
     while (a != null) {
-        if(countA > countB) {
-            a = a.next;
-            countA--;
-            continue;
-        }
-        if(countB > countA) {
-            b = b.next;
-            countB--;
-            continue;
-        }
-        
-        
+
         if(a === b) {
             return a.val;
         } else {
